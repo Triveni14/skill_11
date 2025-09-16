@@ -7,7 +7,7 @@
     RUN apt-get update && apt-get install -y git
     
     # Clone your backend repo
-    RUN git clone https://github.com/Likhithas6/ecommerce-backend-docker.git .
+    RUN git clone https://github.com/Triveni14/skill_11.git .
 
     RUN mvn clean package -DskipTests
 
